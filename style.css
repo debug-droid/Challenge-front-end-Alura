@@ -32,6 +32,15 @@ body {
     right: 0;
 }
 
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .cabecalho nav li {
     display: inline;
     margin: 0 0 0 32px;
