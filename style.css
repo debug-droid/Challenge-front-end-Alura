@@ -200,5 +200,79 @@ main h2 {
 
 /* hobbies end */
 
+/* formação start */
+
+.formacao {
+    display: flex;
+    background: #EAF2FD;
+    height: 581px;
+}
+
+.quadrado-formacao {
+    width: 80%;
+    margin: 82px auto;
+}
+
+.formacao h2 {
+    margin: 0 0 32px 0;
+}
+
+.formacao ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.formacao li {
+    width: 27%;
+}
+
+.imagem-formacao {
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 78px 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-formacao1 {
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 90px 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-formacao2 {
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 86px 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.formacao p {
+    font-size: 16px;
+}
+
+
+/* formação end */
+
 
 /* main end */
