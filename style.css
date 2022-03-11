@@ -93,7 +93,10 @@ a:hover {
 main h2 {
     font-size: 32px;
     font-weight: bold;
+    text-align: center;
 }
+
+/* sobre mim start */
 
 .sobremim {
     display: flex;
@@ -122,6 +125,80 @@ main h2 {
     margin: 0 0 16px 0;
 }
 
+/* sobre mim end */
+
+
+/* skills start */
+
+.skills {
+    width: 80%;
+    height: 244px;
+    margin: 32px auto;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.skills li {
+    width: 16%;
+    height: 174px;
+    display: inline-block;
+    background: #ffffff;
+    margin: 37px 0 0 0;
+}
+
+.skills img {
+    position: absolute;
+    margin: 94px 120px 43px 16px;
+}
+
+.skills h3 {
+    position: absolute;
+    margin: 139px 16px 16px 16px;
+    font-weight: bold;
+}
+
+/* skills end */
+
+/* hobbies start */
+
+.hobbies {
+    width: 80%;
+    height: 244px;
+    margin: 88px auto;
+}
+
+.hobbies ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hobbies li {
+    width: 16%;
+    height: 174px;
+    display: inline-block;
+    background: #ffffff;
+    margin: 37px 0 0 0;
+}
+
+.hobbies img {
+    position: absolute;
+    margin: 94px 120px 43px 16px;
+}
+
+.hobbies h3 {
+    position: absolute;
+    margin: 139px 16px 16px 16px;
+    font-weight: bold;
+}
+
+/* hobbies end */
 
 
 /* main end */
