@@ -274,5 +274,84 @@ main h2 {
 
 /* formação end */
 
+/* experiência profissional start */
+
+.experiencia {
+    width: 80%;
+    margin: 32px auto;
+}
+
+.experiencia li {
+    display: flex;
+    align-items: center;
+    margin: 32px auto 53.5px auto;
+}
+
+.experiencia li:nth-of-type(2n){
+    justify-content: space-between;
+}
+
+.img-projeto img {
+    width: 955px;
+    height: 450px;
+}
+
+.experiencia img-projeto {
+    width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texto {
+    margin-left: 26px;
+}
+
+.texto:nth-of-type(2n+1) {
+    margin: 0 16px 0 0;
+}
+
+.experiencia h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.repositorio {
+    margin: 0 16px 0 0;
+    width: 116px;
+    height: 51px;
+    left: 16px;
+    top: 16px;
+    color: #2A7AE4;
+    background: #F5F5F5;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+}
+
+.demo {
+    margin: 8px 0 0 0;
+    border: none;
+    width: 105px;
+    height: 51px;
+    left: 16px;
+    top: 16px;
+    color: #FFFFFF;
+    background: #2A7AE4;
+}
+
+.repositorio:hover {
+    background: #D4E4FA;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+}
+
+.demo:hover {
+    background: #5595E9;
+}
+
+
+
+
+/* experiência profissional end */
+
 
 /* main end */
