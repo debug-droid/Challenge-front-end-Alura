@@ -3,7 +3,11 @@ body {
     background: #E5E5E5;
     font-weight: 500;
     color: #464646;
-} 
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 /* cabeçalho start */
 
