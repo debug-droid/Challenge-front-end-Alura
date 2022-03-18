@@ -189,15 +189,15 @@
                         <p>Quer entrar em contato comigo?</p>
                         <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                         <form action="" class="formulario">
-                            <input type="text" class="form-nome" placeholder="Nome">
+                            <input type="text" class="form-nome" placeholder="Nome" maxlength="50" required>
     
-                            <input type="text" class="form-email" placeholder="E-mail">
+                            <input type="email" class="form-email" placeholder="E-mail" required>
 
-                            <input type="text" class="form-assunto" placeholder="Assunto">
+                            <input type="text" class="form-assunto" placeholder="Assunto" maxlength="50" required>
     
-                            <input type="text" id="form-msg" placeholder="Mensagem">
+                            <textarea name="formulario" id="form-msg" cols="30" rows="10" placeholder="Mensagem" maxlength="300" required></textarea>
     
-                            <button class="btn-enviar">Enviar mensagem</button>
+                            <button class="btn-enviar" type="submit">Enviar mensagem</button>
                         </form>
                     </div>
                 </div>
