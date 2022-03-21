@@ -187,17 +187,17 @@
                     <div class="form-container">
                         <h2 class="titulo-contato">Contato</h2>
                         <p>Quer entrar em contato comigo?</p>
-                        <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                        <form action="" class="formulario">
-                            <input type="text" class="form-nome" placeholder="Nome" maxlength="50" required>
+                        <p>Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
+                        <form action="" name="form" class="formulario">
+                            <input type="text" name="nome" class="form-nome" placeholder="Nome" maxlength="50" required>
     
-                            <input type="email" class="form-email" placeholder="E-mail" required>
+                            <input type="email" name="email" class="form-email" placeholder="E-mail" required>
 
-                            <input type="text" class="form-assunto" placeholder="Assunto" maxlength="50" required>
+                            <input type="text" name="assunto" class="form-assunto" placeholder="Assunto" maxlength="50" required>
     
-                            <textarea name="formulario" id="form-msg" cols="30" rows="10" placeholder="Mensagem" maxlength="300" required></textarea>
+                            <textarea name="mensagem" id="form-msg" cols="30" rows="10" placeholder="Mensagem" maxlength="300" required></textarea>
     
-                            <button class="btn-enviar" type="submit">Enviar mensagem</button>
+                            <button class="btn-enviar" type="submit" onclick="validar()">Enviar mensagem</button>
                         </form>
                     </div>
                 </div>
@@ -209,6 +209,6 @@
                 </div>
             </footer>
         </main>
-    
+    <script src="./js/validacao.js"></script>
 </body>
 </html>
